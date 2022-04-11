@@ -116,6 +116,9 @@ body{
         margin: 5rem auto;
         align-items: center;
     }
+   .hero__btn{
+     color: #fff;
+    }
 }
 
 
