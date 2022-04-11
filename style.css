@@ -116,7 +116,7 @@ body{
         margin: 5rem auto;
         align-items: center;
     }
-   .hero__btn{
+   .social__media__ul li{
      color: #fff;
     }
 }
