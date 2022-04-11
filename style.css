@@ -1,0 +1,121 @@
+@font-face {
+  font-family: logo;
+  src: url(fonts/PostNoBillsJaffna-ExtraBold.woff);
+}
+@import url('https://fonts.googleapis.com/css2?family=Poor+Story&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: hsla(0, 100%, 65%, 91%);
+    background-image: url(images/toppng\ 1.png),url(images/image\ 2.png);
+    background-blend-mode: multiply;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: #ffff;
+    width: 100%;
+    height: 100vh;
+}
+
+
+.header__section{
+    background-color: hsla(248, 57%, 45%, 46%);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header__logo{
+    font-family: logo;
+    font-size: 1.8rem;
+    margin-left: 5.6rem;
+}
+
+.navbar_ul{
+    display: flex;
+    list-style: none
+}
+
+.navbar_ul a{
+    font-family: 'Poor Story', cursive;
+    margin: 2rem;
+    font-size: 2rem;
+    text-decoration: none;
+    text-transform: capitalize;
+    color: #ffff;
+}
+
+/* Hero__Section */
+
+.hero__section{
+/*     background-color: blueviolet; */
+    width: 50%;
+    position: absolute;
+    top: 45%;
+    left: 50%;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1.8rem;
+    
+}
+.hero__section h1{
+    font-family: 'Port Lligat Sans', sans-serif;
+    font-size: 4rem;
+}
+.hero__section h3{
+    font-family: 'Port Lligat Sans', sans-serif;
+    font-size: 2rem;
+}
+.hero__section p{
+    font-family: 'Poor Story', cursive;
+    width: 70%;
+    font-size: 2rem;
+}
+
+.hero__btn{
+    font-family: 'Port Lligat Sans', sans-serif;
+    padding: 1rem 2rem;
+    background-color: #4032B6;
+    color: #ffff;
+    font-size: 2rem;
+    border: 0;
+    border-radius: 28px;
+    white-space: nowrap;
+}
+
+.social__media{
+/*     background-color: #4032B6; */
+    display: flex;
+    flex-direction: column;
+}
+.social__media__ul{
+    display: flex;
+    align-items: center;
+    list-style: none;
+}
+
+.social__media__ul li{
+    margin: 1rem;
+    font-size: 2.5rem;
+    color: #4032B6;
+}
+
+@media screen and (max-width: 1200px)
+{ 
+    html{
+        font-size: 72.5%;
+    }
+    .hero__section{
+        width: 100%;
+        position: static;
+        margin: 5rem auto;
+        align-items: center;
+    }
+}
+
+
